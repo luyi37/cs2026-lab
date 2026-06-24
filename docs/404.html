@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cs2026-lab 404</title>
+</head>
+<body>
+    <h1>404</h1>
+    <h3>Sorry cs2026-lab page does not exist</h3>
+    <h1 id="id1">AAAA</h1>
+    <h1 id="id2">AAAA</h1>
+<script>
+const date = new Date();
+const date1 = date.toLocaleString("en-uk", {
+hour12: true, weekday: "short", hour: "2-digit", minute: "2-digit", second: "2-digit",
+month: "2-digit", year: "numeric", day: "2-digit" });
+document.getElementById("id1").innerHTML = "" + date1;
+document.getElementById("id2").innerHTML = "" + Date.now();
+</script>
+</body>
+</html>
