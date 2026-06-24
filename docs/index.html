@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cs2026-lab</title>
+</head>
+<body>
+    <h1>Hello from cs2026-lab</h1>
+    <!-- ipaddresses past next line -->
+    <div id="list">
+        <iframe width="400" height="220" src="./ipaddresses.html" frameborder="0">
+        </iframe>
+    </div>
+    <h4 id="id1">AAAA</h4>
+    <h5 id="id2">AAAA</h5>
+<script>
+const date = new Date();
+const date1 = date.toLocaleString("en-uk", {
+hour12: true, weekday: "short", hour: "2-digit", minute: "2-digit", second: "2-digit",
+month: "2-digit", year: "numeric", day: "2-digit" });
+document.getElementById("id1").innerHTML = "" + date1;
+document.getElementById("id2").innerHTML = "" + Date.now();
+</script>
+</body>
+</html>
